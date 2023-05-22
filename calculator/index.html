@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
   <script src="dynamic.js"></script>
 </head>
+
 <body>
   <div class="calculator">
     <div class="display">
       <input type="text" id="display" disabled>
     </div>
-    <div class="button-grid">
+    <div class="button-grid" id="button-grid">
       <button class="number">7</button>
       <button class="number">8</button>
       <button class="number">9</button>
-      <button>/</button>
+      <button class="operator">/</button>
       <button class="number">4</button>
       <button class="number">5</button>
       <button class="number">6</button>
-      <button>*</button>
+      <button class="operator">*</button>
       <button class="number">1</button>
       <button class="number">2</button>
       <button class="number">3</button>
-      <button>-</button>
-      <button class="span-2 number">0</button>
-      <button>.</button>
-      <button>=</button>
-      <button>+</button>
-      <button class="span-3">AC</button>
-      <button>Del</button>
+      <button class="operator">-</button>
+      <button class="number">0</button>
+      <button class="decimal">.</button>
+      <button class="equal">=</button>
+      <button class="operator">+</button>
+      <button class="clear">AC</button>
+      <button class="back">Del</button>
     </div>
   </div>
 </body>
+
 </html>
